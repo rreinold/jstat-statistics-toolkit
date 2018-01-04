@@ -1,0 +1,10 @@
+{
+    "current_version": 22,
+    "dependencies": "jStat",
+    "logging_enabled": "false",
+    "name": "Example_NormalDistribution_Static",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "Example_NormalDistribution_Static.js"
+}
