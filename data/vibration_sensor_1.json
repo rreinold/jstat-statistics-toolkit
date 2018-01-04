@@ -1,0 +1,26 @@
+{
+    "app_id": "8ce4dda40bb69ad2c1bde69fb8ab01",
+    "collection_id": "facbdfa40bb0c2c9cebfdc86a28001",
+    "items": [],
+    "name": "vibration_sensor_1",
+    "permissions": {
+        "Anonymous": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "x",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "y",
+            "ColumnType": "float",
+            "PK": false
+        }
+    ]
+}
