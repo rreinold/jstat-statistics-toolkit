@@ -1,0 +1,10 @@
+{
+    "current_version": 3,
+    "dependencies": "",
+    "logging_enabled": "false",
+    "name": "Example_WeibullDistribution_Advanced",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "Example_WeibullDistribution_Advanced.js"
+}
