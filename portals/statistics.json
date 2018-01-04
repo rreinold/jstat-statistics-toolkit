@@ -1,0 +1,1148 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "551b0afa-2fba-4ec0-bc55-360c09a0d0be": "lg",
+            "a7388213-526d-423b-a6c2-b8bd18dc999a": "md",
+            "c27468d1-ee71-4134-8c69-30b1243c1e70": "lg",
+            "e2377a4c-f972-4661-9771-28e794bfaf30": "lg",
+            "fab18113-45af-471a-b5d8-b9de744024df": "lg"
+        },
+        "datasources": {
+            "19a1a7fe-70d6-44ec-ac3a-752afddac5cc": {
+                "id": "19a1a7fe-70d6-44ec-ac3a-752afddac5cc",
+                "name": "Collection",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "collection_name": "vibration_sensor_1",
+                    "refresh_interval": 1
+                },
+                "type": "CB_COLLECTION"
+            },
+            "792f962f-c528-4529-a8d6-bcf42ab7dab5": {
+                "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
+                "name": "Example_NormalDistribution_Advanced",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "Example_NormalDistribution_Advanced",
+                    "payload": "{}",
+                    "refresh_interval": 2
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "8fc5b443-64be-47ff-a242-a86f38d4f8bd": {
+                "id": "8fc5b443-64be-47ff-a242-a86f38d4f8bd",
+                "name": "Example_GenerateData",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "Example_GenerateData",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [],
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 42,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 89,
+                    "x": 165,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "551b0afa-2fba-4ec0-bc55-360c09a0d0be": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "3f29c502-c129-4bb7-a986-54ea6ede3008",
+                        "minH": 3,
+                        "w": 1,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "a7388213-526d-423b-a6c2-b8bd18dc999a": {
+                "lg": [
+                    {
+                        "h": 18,
+                        "i": "36bcb467-8d8b-4abd-951c-e5f9ef79c9de",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "6953cacd-f027-4a71-8ff0-5c023645fb71",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 18
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 18,
+                        "i": "36bcb467-8d8b-4abd-951c-e5f9ef79c9de",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "6953cacd-f027-4a71-8ff0-5c023645fb71",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 18
+                    }
+                ],
+                "sm": [],
+                "xs": [
+                    {
+                        "h": 18,
+                        "i": "36bcb467-8d8b-4abd-951c-e5f9ef79c9de",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "6953cacd-f027-4a71-8ff0-5c023645fb71",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 18
+                    }
+                ],
+                "xxs": []
+            },
+            "c27468d1-ee71-4134-8c69-30b1243c1e70": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "8fac2a93-ac84-4b47-b4f1-7250716b59de",
+                        "minH": 3,
+                        "w": 1,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "e2377a4c-f972-4661-9771-28e794bfaf30": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "bc11db9f-73e5-488f-89c8-f885f7750b4e",
+                        "minH": 3,
+                        "w": 7,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "fab18113-45af-471a-b5d8-b9de744024df": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "7a9e948a-33f2-41a6-a672-ea562a820def",
+                        "minH": 3,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 2,
+                        "i": "ab124186-fb49-43d1-baf1-4f39438637b2",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 6,
+                        "y": 5
+                    },
+                    {
+                        "h": 2,
+                        "i": "963492cd-2bb0-48a3-8158-3e646d57f79b",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 3,
+                        "i": "7affefab-9bc9-4bcd-8d5f-1c8f80f5b765",
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "d7bb88c4-0ef6-4067-95c2-5e6e030a3b79",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 6,
+                        "y": 3
+                    },
+                    {
+                        "h": 2,
+                        "i": "203f660a-0b47-4741-8088-130de7c12437",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 5
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 2,
+                        "i": "ab124186-fb49-43d1-baf1-4f39438637b2",
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 2,
+                        "i": "963492cd-2bb0-48a3-8158-3e646d57f79b",
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 5,
+                        "y": 3
+                    },
+                    {
+                        "h": 3,
+                        "i": "7affefab-9bc9-4bcd-8d5f-1c8f80f5b765",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 2,
+                        "i": "ab124186-fb49-43d1-baf1-4f39438637b2",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 2,
+                        "i": "963492cd-2bb0-48a3-8158-3e646d57f79b",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 5
+                    },
+                    {
+                        "h": 3,
+                        "i": "7affefab-9bc9-4bcd-8d5f-1c8f80f5b765",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 2,
+                        "i": "ab124186-fb49-43d1-baf1-4f39438637b2",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 2,
+                        "i": "963492cd-2bb0-48a3-8158-3e646d57f79b",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 5
+                    },
+                    {
+                        "h": 3,
+                        "i": "7affefab-9bc9-4bcd-8d5f-1c8f80f5b765",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "203f660a-0b47-4741-8088-130de7c12437": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Weibull Distribution (Pdf)"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "203f660a-0b47-4741-8088-130de7c12437",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "e2377a4c-f972-4661-9771-28e794bfaf30",
+                    "tabIds": [
+                        "e2377a4c-f972-4661-9771-28e794bfaf30"
+                    ],
+                    "tabTitles": {
+                        "e2377a4c-f972-4661-9771-28e794bfaf30": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "7affefab-9bc9-4bcd-8d5f-1c8f80f5b765": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Raw Data"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "7affefab-9bc9-4bcd-8d5f-1c8f80f5b765",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "a7388213-526d-423b-a6c2-b8bd18dc999a",
+                    "tabIds": [
+                        "a7388213-526d-423b-a6c2-b8bd18dc999a"
+                    ],
+                    "tabTitles": {
+                        "a7388213-526d-423b-a6c2-b8bd18dc999a": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "963492cd-2bb0-48a3-8158-3e646d57f79b": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Normal Distribution (Pdf)"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "963492cd-2bb0-48a3-8158-3e646d57f79b",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "c27468d1-ee71-4134-8c69-30b1243c1e70",
+                    "tabIds": [
+                        "c27468d1-ee71-4134-8c69-30b1243c1e70"
+                    ],
+                    "tabTitles": {
+                        "c27468d1-ee71-4134-8c69-30b1243c1e70": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "ab124186-fb49-43d1-baf1-4f39438637b2": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Normal Distribution (Cdf)"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "ab124186-fb49-43d1-baf1-4f39438637b2",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "551b0afa-2fba-4ec0-bc55-360c09a0d0be",
+                    "tabIds": [
+                        "551b0afa-2fba-4ec0-bc55-360c09a0d0be"
+                    ],
+                    "tabTitles": {
+                        "551b0afa-2fba-4ec0-bc55-360c09a0d0be": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "d7bb88c4-0ef6-4067-95c2-5e6e030a3b79": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Weibull (Pdf)"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "d7bb88c4-0ef6-4067-95c2-5e6e030a3b79",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "fab18113-45af-471a-b5d8-b9de744024df",
+                    "tabIds": [
+                        "fab18113-45af-471a-b5d8-b9de744024df"
+                    ],
+                    "tabTitles": {
+                        "fab18113-45af-471a-b5d8-b9de744024df": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5"
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#2aaaf3"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#ffffff"
+                            },
+                            "header": {
+                                "backgroundColor": "#2aaaf3"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#d6d2d2"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#f7f7f7"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#f7f7f7"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#f7f7f7",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#f7f7f7",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#f7f7f7"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#f7f7f7",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#f7f7f7",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#f7f7f7",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#f7f7f7",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "36bcb467-8d8b-4abd-951c-e5f9ef79c9de": {
+                "externalScripts": [],
+                "id": "36bcb467-8d8b-4abd-951c-e5f9ef79c9de",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "barColors": [
+                        {
+                            "fill": "#1ca82c"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "bars": [
+                        {
+                            "dataKey": "y",
+                            "legendType": "star",
+                            "name": "",
+                            "stackId": "",
+                            "yAxisId": ""
+                        }
+                    ],
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "19a1a7fe-70d6-44ec-ac3a-752afddac5cc",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource.map(function(e){\n    return e.data\n})"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#f7f7f7",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "xAxisDataKey": "x",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "orientation": "left"
+                        }
+                    ]
+                },
+                "tab": "a7388213-526d-423b-a6c2-b8bd18dc999a",
+                "type": "BAR_CHART_WIDGET_COMPONENT"
+            },
+            "3f29c502-c129-4bb7-a986-54ea6ede3008": {
+                "externalScripts": [],
+                "id": "3f29c502-c129-4bb7-a986-54ea6ede3008",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "barColors": [
+                        {
+                            "fill": "#e81e72"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "bars": [
+                        {
+                            "dataKey": "y",
+                            "legendType": "star",
+                            "name": "",
+                            "stackId": "",
+                            "yAxisId": ""
+                        }
+                    ],
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource.results.normCdf;"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#f7f7f7",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "xAxisDataKey": "x",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "orientation": "left"
+                        }
+                    ]
+                },
+                "tab": "551b0afa-2fba-4ec0-bc55-360c09a0d0be",
+                "type": "BAR_CHART_WIDGET_COMPONENT"
+            },
+            "6953cacd-f027-4a71-8ff0-5c023645fb71": {
+                "externalScripts": [],
+                "id": "6953cacd-f027-4a71-8ff0-5c023645fb71",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "backgroundColor": "#f5f5f5",
+                    "backgroundHoverColor": "#c2c2c2",
+                    "borderColor": "#cccccc",
+                    "eventTarget": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "8fc5b443-64be-47ff-a242-a86f38d4f8bd",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        }
+                    },
+                    "fontColor": "#f7f7f7",
+                    "label": "Generate New Data"
+                },
+                "tab": "a7388213-526d-423b-a6c2-b8bd18dc999a",
+                "type": "BUTTON_WIDGET_COMPONENT"
+            },
+            "7a9e948a-33f2-41a6-a672-ea562a820def": {
+                "externalScripts": [],
+                "id": "7a9e948a-33f2-41a6-a672-ea562a820def",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "barColors": [
+                        {
+                            "fill": "#d88d2f"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "bars": [
+                        {
+                            "dataKey": "y"
+                        }
+                    ],
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource.results.weibullPdf;"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#f7f7f7",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "xAxisDataKey": "y",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "orientation": "left"
+                        }
+                    ]
+                },
+                "tab": "fab18113-45af-471a-b5d8-b9de744024df",
+                "type": "BAR_CHART_WIDGET_COMPONENT"
+            },
+            "8fac2a93-ac84-4b47-b4f1-7250716b59de": {
+                "externalScripts": [],
+                "id": "8fac2a93-ac84-4b47-b4f1-7250716b59de",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "barColors": [
+                        {
+                            "fill": "#d81717"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "bars": [
+                        {
+                            "dataKey": "y"
+                        }
+                    ],
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": null,
+                        "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource.results.normPdf;"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#f7f7f7",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "xAxisDataKey": "x",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "orientation": "left"
+                        }
+                    ]
+                },
+                "tab": "c27468d1-ee71-4134-8c69-30b1243c1e70",
+                "type": "BAR_CHART_WIDGET_COMPONENT"
+            },
+            "bc11db9f-73e5-488f-89c8-f885f7750b4e": {
+                "externalScripts": [],
+                "id": "bc11db9f-73e5-488f-89c8-f885f7750b4e",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "barColors": [
+                        {
+                            "fill": "#6E8592"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "bars": [
+                        {
+                            "dataKey": "y"
+                        }
+                    ],
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource.results.weibullPdf;"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#f7f7f7",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "xAxisDataKey": "x",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "orientation": "left"
+                        }
+                    ]
+                },
+                "tab": "e2377a4c-f972-4661-9771-28e794bfaf30",
+                "type": "BAR_CHART_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return \"Statistic Analysis Demo\""
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": null,
+    "last_updated": "02 Jan 18 23:27 UTC",
+    "name": "statistics",
+    "system_key": "8ce4dda40bb69ad2c1bde69fb8ab01",
+    "type": "v2"
+}
