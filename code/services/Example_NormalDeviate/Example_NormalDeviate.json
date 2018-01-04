@@ -1,0 +1,12 @@
+{
+    "current_version": 31,
+    "dependencies": "jStat",
+    "logging_enabled": "false",
+    "name": "Example_NormalDeviate",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1
+    },
+    "run_user": "",
+    "source": "Example_NormalDeviate.js"
+}
