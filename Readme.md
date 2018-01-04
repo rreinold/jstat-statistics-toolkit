@@ -1,37 +1,53 @@
-# jstat_statistics_library
+# jstat-statistics-toolkit
 
+## Overview
 
+<img src="https://i.imgur.com/9oluUP8.png" alt="Drawing" style="width: 100%;"/>
 
-This is an reusable ClearBlade System which can be imported by any developer into their ClearBlade accounts. The system can be imported as is into a completely new system or into an existing system. The developer gets to select the assets they wish to import.
+Big Data is demanding, so a wide range of powerful statistics tools are essential. This is a JS Library you can use within your code services to compute  against multi-dimensional datasets, build statistics models, detect anomalies, and more.
+
+## API Documentation
+
+[http://jstat.github.io/](http://jstat.github.io/)
+
+## Usage
+
+There are numerous example which can be run out of the box:
+
+### Code Libraries
+jStat - Core library, accessible as `jStat` Object
+
+### Code Services
+
+#### Example
+
+`Example_GenerateData` - Generates 100 datapoints, stores in `vibration_sensor_1` Collection		
+`Example_NormalDeviate`	 - Create a normal deviate dataset
+`Example_NormalDistribution_Advanced` - Pull dataset from collection, build model
+`Example_NormalDistribution_Static` - Use static dataset, build model	
+`Example_WeibullDistribution_Advanced` - Fetch dataset from collection, build weibull model
+`Test_jStat_Smoke` - Smoke test for jStat library
+
+### Portals
+
+`statistics` - Visualize raw data and models
+
+### Collections
+
+`vibration_sensor_1` - Stores x,y sensor data
+
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running in your ClearBlade Account for development and execution purposes.
+1) Log in or create an account on [platform.clearblade.com](https://platform.clearblade.com)  
+2) Press "Install"  
+3) Paste in this github url, then press Fetch
 
-### Prerequisites
-
-You just need to create a ClearBlade account. Click [here](https://platform.clearblade.com) to create an Account and start innovating. Learn more about [ClearBlade, Inc.](https://clearblade.com) 
-
-### How to use this System?
-
-Now that a ClearBlade account exists, you're just a few clicks away from reusing this system !
-Yes, it's that simple !
-
-Follow these Steps:
-
-1. Login to your account on [Clearblade platform](https://platform.clearblade.com)
-2. Click the import button in your dashboard menu
-3. Paste the [Url](https://github.com/rreinold/jstat_statistics_library) of this system and hit go
-4. Select the required assets, from the list of available assets and hit import.
-
-And it's Done !!!!
+`https://github.com/rreinold/jstat-statistics-toolkit`
 
 
-## Built With
+## Thank you
 
-* [Clearblade Platform](https://platform.clearblade.com) - The platform used
-
-## ClearBlade Username of Author:
-
-* **rreinold@clearblade.com** 
+* ClearBlade Platform - [platform.clearblade.com](https://platform.clearblade.com)
+* jStat Library - [github.com/jstat/jstat](https://github.com/jstat/jstat)
 
