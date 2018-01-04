@@ -1,18 +1,19 @@
 {
     "author": {
-        "email": "rreinold@clearblade.com"
+        "email": "rob@clearblade.com"
     },
     "clouds": [],
-    "description": "",
+    "description": "Statistical Analysis Toolkit Library for ClearBlade Platform",
     "domains": [],
+    "asset_types":["Code Libraries","Code Services","Collections"],
     "gateways": [],
     "image_url": "https://i.imgur.com/9oluUP8.png",
-    "keywords": [],
-    "license": "",
-    "name": "PackageDev_jStat",
+    "keywords": ["jstat","analytics","statistics","anomaly","stat"],
+    "license": "MIT",
+    "name": "jstat-analytics-toolkit",
     "private": false,
-    "prog_lang": [],
+    "prog_lang": ["javascript"],
     "protocols": [],
     "things": [],
-    "version": ""
+    "version": "1.7.1"
 }
