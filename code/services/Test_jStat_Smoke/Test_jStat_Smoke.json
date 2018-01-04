@@ -1,0 +1,10 @@
+{
+    "current_version": 15,
+    "dependencies": "jStat",
+    "logging_enabled": "true",
+    "name": "Test_jStat_Smoke",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "Test_jStat_Smoke.js"
+}
