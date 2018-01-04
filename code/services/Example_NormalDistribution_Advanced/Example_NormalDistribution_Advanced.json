@@ -1,0 +1,12 @@
+{
+    "current_version": 99,
+    "dependencies": "clearblade,log,jStat",
+    "logging_enabled": "true",
+    "name": "Example_NormalDistribution_Advanced",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1
+    },
+    "run_user": "",
+    "source": "Example_NormalDistribution_Advanced.js"
+}
