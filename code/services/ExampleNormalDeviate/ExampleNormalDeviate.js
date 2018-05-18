@@ -1,5 +1,9 @@
-Y_OFFSET = 2
-function Example_NormalDeviate(req, resp){
+/**
+ * This example creates a normal deviate dataset
+ * 
+ */
+function ExampleNormalDeviate(req, resp){
+    Y_OFFSET = 2
     var random = jStat.randn(1,100)
     var output = random[0].map(function(y,x){
         var point = {

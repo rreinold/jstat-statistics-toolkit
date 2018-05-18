@@ -1,6 +1,13 @@
-COLLECTION_NAME = "vibration_sensor_1"
-function Example_NormalDistribution_Advanced(req, resp){
-    
+/**
+ * This example Pull dataset from collection, build model.
+ * It uses the more than one methods from jStat-toolkit which can referred at: 
+ *  jStat.mean - http://jstat.github.io/all.html#mean
+ *  jStat.stdev - http://jstat.github.io/all.html#stdev
+ *  jStat.normal - http://jstat.github.io/all.html#jStat.normal
+ *  jStat.weibull - http://jstat.github.io/all.html#jStat.weibull
+ */
+function ExampleNormalDistributionAdvanced(req, resp){
+    COLLECTION_NAME = "vibration_sensor_1";
     var output = {
         normPdf:[],
         normCdf:[]
