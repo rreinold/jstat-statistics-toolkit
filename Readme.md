@@ -36,4 +36,4 @@ JStatLib - Core library, accessible as `jStat` Object
 `vibration_sensor_1` - Stores x,y sensor data
 ## API
 
-Documentation for jStat can be found at [http://jstat.github.io/](http://jstat.github.io/)
+[http://jstat.github.io/](http://jstat.github.io/)
