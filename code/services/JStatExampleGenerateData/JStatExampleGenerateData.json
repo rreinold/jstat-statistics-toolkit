@@ -5,11 +5,11 @@
     "dependencies": "clearblade,log,JStatLib",
     "execution_timeout": 0,
     "logging_enabled": "true",
-    "name": "JStatExGenerateData",
+    "name": "JStatExampleGenerateData",
     "params": [],
     "permissions": {
         "Anonymous": 1
     },
     "run_user": "",
-    "source": "JStatExGenerateData.js"
+    "source": "JStatExampleGenerateData.js"
 }

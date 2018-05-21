@@ -3,7 +3,7 @@
  * 
  */
 
-function JStatExGenerateData(req, resp){
+function JStatExampleGenerateData(req, resp){
     NUM_DATA_POINTS = 100
     Y_OFFSET = 3
     COLLECTION_NAME = "vibration_sensor_1"

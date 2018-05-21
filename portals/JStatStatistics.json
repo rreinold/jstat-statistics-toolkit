@@ -28,11 +28,11 @@
             },
             "1e8c4d45-0f63-407d-9571-4fbf97df5a58": {
                 "id": "1e8c4d45-0f63-407d-9571-4fbf97df5a58",
-                "name": "JStatExNormalDeviate",
+                "name": "JStatExampleNormalDeviate",
                 "settings": {
                     "CALL_ON_LOAD": true,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "code_name": "JStatExNormalDeviate",
+                    "code_name": "JStatExampleNormalDeviate",
                     "payload": "{}",
                     "refresh_interval": 1
                 },
@@ -40,11 +40,11 @@
             },
             "792f962f-c528-4529-a8d6-bcf42ab7dab5": {
                 "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
-                "name": "JStatExNormalDistributionAdvanced",
+                "name": "JStatExampleNormalDistributionAdvanced",
                 "settings": {
                     "CALL_ON_LOAD": true,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "code_name": "JStatExNormalDistributionAdvanced",
+                    "code_name": "JStatExampleNormalDistributionAdvanced",
                     "payload": "{}",
                     "refresh_interval": 2
                 },
@@ -52,11 +52,11 @@
             },
             "8fc5b443-64be-47ff-a242-a86f38d4f8bd": {
                 "id": "8fc5b443-64be-47ff-a242-a86f38d4f8bd",
-                "name": "JStatExGenerateData",
+                "name": "JStatExampleGenerateData",
                 "settings": {
                     "CALL_ON_LOAD": false,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "code_name": "JStatExGenerateData",
+                    "code_name": "JStatExampleGenerateData",
                     "payload": "{}",
                     "refresh_interval": 0
                 },

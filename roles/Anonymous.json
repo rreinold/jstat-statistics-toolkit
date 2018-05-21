@@ -12,22 +12,22 @@
         "CodeServices": [
             {
                 "Level": 1,
-                "Name": "JStatExGenerateData",
+                "Name": "JStatExampleGenerateData",
                 "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             },
             {
                 "Level": 1,
-                "Name": "JStatExNormalDeviate",
+                "Name": "JStatExampleNormalDeviate",
                 "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             },
             {
                 "Level": 1,
-                "Name": "JStatExNormalDistributionAdvanced",
+                "Name": "JStatExampleNormalDistributionAdvanced",
                 "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             },
             {
                 "Level": 1,
-                "Name": "JStatExNormalDistributionStatic",
+                "Name": "JStatExampleNormalDistributionStatic",
                 "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             },
             {

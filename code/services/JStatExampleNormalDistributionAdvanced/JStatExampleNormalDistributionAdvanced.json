@@ -5,11 +5,11 @@
     "dependencies": "clearblade,log,JStatLib",
     "execution_timeout": 0,
     "logging_enabled": "true",
-    "name": "JStatExNormalDistributionAdvanced",
+    "name": "JStatExampleNormalDistributionAdvanced",
     "params": [],
     "permissions": {
         "Anonymous": 1
     },
     "run_user": "",
-    "source": "JStatExNormalDistributionAdvanced.js"
+    "source": "JStatExampleNormalDistributionAdvanced.js"
 }
