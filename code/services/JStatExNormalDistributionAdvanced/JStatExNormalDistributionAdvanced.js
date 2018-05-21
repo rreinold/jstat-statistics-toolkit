@@ -6,7 +6,7 @@
  *  jStat.normal - http://jstat.github.io/all.html#jStat.normal
  *  jStat.weibull - http://jstat.github.io/all.html#jStat.weibull
  */
-function ExampleNormalDistributionAdvanced(req, resp){
+function JStatExNormalDistributionAdvanced(req, resp){
     COLLECTION_NAME = "vibration_sensor_1";
     var output = {
         normPdf:[],

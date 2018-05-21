@@ -12,42 +12,27 @@
         "CodeServices": [
             {
                 "Level": 1,
-                "Name": "ExampleGenerateData",
+                "Name": "JStatExGenerateData",
                 "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             },
             {
                 "Level": 1,
-                "Name": "ExampleNormalDeviate",
+                "Name": "JStatExNormalDeviate",
                 "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             },
             {
                 "Level": 1,
-                "Name": "ExampleNormalDistributionAdvanced",
+                "Name": "JStatExNormalDistributionAdvanced",
                 "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             },
             {
                 "Level": 1,
-                "Name": "ExampleNormalDistributionStatic",
+                "Name": "JStatExNormalDistributionStatic",
                 "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             },
             {
                 "Level": 1,
-                "Name": "Example_GenerateData",
-                "SystemKey": "86b7e0a40b98c6959985ffd0df35"
-            },
-            {
-                "Level": 1,
-                "Name": "Example_NormalDeviate",
-                "SystemKey": "86b7e0a40b98c6959985ffd0df35"
-            },
-            {
-                "Level": 1,
-                "Name": "Example_NormalDistribution_Advanced",
-                "SystemKey": "86b7e0a40b98c6959985ffd0df35"
-            },
-            {
-                "Level": 1,
-                "Name": "TestJStatSmoke",
+                "Name": "JStatTestSmoke",
                 "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             }
         ],
@@ -55,13 +40,6 @@
             {
                 "Columns": [],
                 "ID": "facbdfa40bb0c2c9cebfdc86a28001",
-                "Items": [],
-                "Level": 15,
-                "Name": "vibration_sensor_1"
-            },
-            {
-                "Columns": [],
-                "ID": "88b7e0a40be0ee90a88efe889674",
                 "Items": [],
                 "Level": 15,
                 "Name": "vibration_sensor_1"
@@ -82,7 +60,7 @@
         "Portals": [
             {
                 "Level": 5,
-                "Name": "statistics",
+                "Name": "JStatStatistics",
                 "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             }
         ],

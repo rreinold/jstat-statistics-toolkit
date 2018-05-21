@@ -2,7 +2,7 @@
  * This is a smoke test for jStat library
  * 
  */
-function TestJStatSmoke(req, resp){
+function JStatTestSmoke(req, resp){
     EXPECTED = 1
     try{
         var mean = jStat.mean([0,1,2])

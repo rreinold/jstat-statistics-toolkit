@@ -5,7 +5,7 @@
  *  jStat.stdev - http://jstat.github.io/all.html#stdev
  *  jStat.normal - http://jstat.github.io/all.html#jStat.normal
  */
-function ExampleNormalDistributionStatic(req, resp){
+function JStatExNormalDistributionStatic(req, resp){
     // [0,1,2,...,9]
     var x = jStat.seq(0,9,10)
     // Required for build distribution

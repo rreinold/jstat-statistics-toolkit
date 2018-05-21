@@ -1,15 +1,15 @@
 {
     "auto_restart": false,
     "concurrency": 0,
-    "current_version": 6,
-    "dependencies": "clearblade,log,JStatLib",
+    "current_version": 4,
+    "dependencies": "JStatLib",
     "execution_timeout": 0,
     "logging_enabled": "true",
-    "name": "ExampleGenerateData",
+    "name": "JStatTestSmoke",
     "params": [],
     "permissions": {
         "Anonymous": 1
     },
     "run_user": "",
-    "source": "ExampleGenerateData.js"
+    "source": "JStatTestSmoke.js"
 }

@@ -1,19 +1,32 @@
 {
-    "author": {
-        "email": "rob@clearblade.com"
-    },
+    "name": "jstat-analytics-toolkit",
+    "version": "2.0.0",
+    "author":  "Rob Reinold <rob@clearblade.com>",
     "clouds": [],
     "description": "Statistical Analysis Toolkit Library for ClearBlade Platform",
     "domains": [],
-    "asset_types":["Code Libraries","Code Services","Collections"],
+    "asset_types":["Code Libraries","Code Services","Collections", "Portals"],
     "gateways": [],
     "image_url": "https://i.imgur.com/9oluUP8.png",
-    "keywords": ["jstat","analytics","statistics","anomaly","stat"],
+    "keywords": ["jstat","analytics","statistics","anomaly","stat", "library", "toolkit"],
     "license": "MIT",
-    "name": "jstat-analytics-toolkit",
     "private": false,
     "prog_lang": ["javascript"],
     "protocols": [],
     "things": [],
-    "version": "1.7.1"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rreinold/jstat-statistics-toolkit.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rreinold/jstat-statistics-toolkit/issues"
+    },
+    "homepage": "https://github.com/rreinold/jstat-statistics-toolkit#readme",
+    "scripts": {
+        "jsdoc": "jsdoc2md code/libraries/*/*.js > jsdoc.md"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "jsdoc-to-markdown": "^4.0.1"
+    }
 }

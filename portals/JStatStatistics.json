@@ -28,11 +28,11 @@
             },
             "1e8c4d45-0f63-407d-9571-4fbf97df5a58": {
                 "id": "1e8c4d45-0f63-407d-9571-4fbf97df5a58",
-                "name": "ExampleNormalDeviate",
+                "name": "JStatExNormalDeviate",
                 "settings": {
                     "CALL_ON_LOAD": true,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "code_name": "ExampleNormalDeviate",
+                    "code_name": "JStatExNormalDeviate",
                     "payload": "{}",
                     "refresh_interval": 1
                 },
@@ -40,11 +40,11 @@
             },
             "792f962f-c528-4529-a8d6-bcf42ab7dab5": {
                 "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
-                "name": "ExampleNormalDistributionAdvanced",
+                "name": "JStatExNormalDistributionAdvanced",
                 "settings": {
                     "CALL_ON_LOAD": true,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "code_name": "ExampleNormalDistributionAdvanced",
+                    "code_name": "JStatExNormalDistributionAdvanced",
                     "payload": "{}",
                     "refresh_interval": 2
                 },
@@ -52,11 +52,11 @@
             },
             "8fc5b443-64be-47ff-a242-a86f38d4f8bd": {
                 "id": "8fc5b443-64be-47ff-a242-a86f38d4f8bd",
-                "name": "ExampleGenerateData",
+                "name": "JStatExGenerateData",
                 "settings": {
                     "CALL_ON_LOAD": false,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "code_name": "ExampleGenerateData",
+                    "code_name": "JStatExGenerateData",
                     "payload": "{}",
                     "refresh_interval": 0
                 },
@@ -957,7 +957,7 @@
     },
     "description": "",
     "last_updated": "18 May 18 22:17 UTC",
-    "name": "statistics",
+    "name": "JStatStatistics",
     "system_key": "86b7e0a40b98c6959985ffd0df35",
     "type": "v2"
 }
