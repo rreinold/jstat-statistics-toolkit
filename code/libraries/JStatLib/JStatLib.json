@@ -3,6 +3,6 @@
     "dependencies": "",
     "description": "jStat Library for Statistic Analysis",
     "name": "JStatLib",
-    "version": 4,
+    "version": 1,
     "visibility": "system"
 }

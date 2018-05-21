@@ -1,8 +1,8 @@
 {
     "auth": true,
-    "description": "Statistical Analysis Toolkit Library for ClearBlade Platform",
+    "description": "",
     "messaging_url": "staging.clearblade.com:1883",
-    "name": "dev-jstat-statistical-analysis",
+    "name": "jstat-statistical-analysis",
     "platform_url": "https://staging.clearblade.com",
     "system_key": "",
     "system_secret": ""

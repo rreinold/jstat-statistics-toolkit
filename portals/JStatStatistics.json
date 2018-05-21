@@ -723,7 +723,7 @@
                         "id": "19a1a7fe-70d6-44ec-ac3a-752afddac5cc",
                         "incoming_parser": {
                             "isDebugOn": false,
-                            "value": "debugger\nreturn this.datasource.map(function(e){\n    return e.data\n})"
+                            "value": "return this.datasource.map(function(e){\n    return e.data\n})"
                         }
                     },
                     "chartMarginBottom": 0,
