@@ -2,7 +2,7 @@
     "api": "",
     "dependencies": "",
     "description": "jStat Library for Statistic Analysis",
-    "name": "jStat",
-    "version": 2,
+    "name": "JStatLib",
+    "version": 1,
     "visibility": "system"
 }

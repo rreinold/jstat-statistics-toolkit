@@ -1,8 +1,12 @@
-NUM_DATA_POINTS = 100
-Y_OFFSET = 3
-COLLECTION_NAME = "vibration_sensor_1"
-function Example_GenerateData(req, resp){
-    
+/**
+ * This example Generates 100 datapoints, stores in vibration_sensor_1 Collection
+ * 
+ */
+
+function JStatExampleGenerateData(req, resp){
+    NUM_DATA_POINTS = 100
+    Y_OFFSET = 3
+    COLLECTION_NAME = "vibration_sensor_1"
     ClearBlade.init({request:req})
     var query = ClearBlade.Query()
     var collection = ClearBlade.Collection({collectionName:COLLECTION_NAME})

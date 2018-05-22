@@ -12,9 +12,7 @@
         "currentBreakpointsForWidgets": {
             "551b0afa-2fba-4ec0-bc55-360c09a0d0be": "lg",
             "a7388213-526d-423b-a6c2-b8bd18dc999a": "md",
-            "c27468d1-ee71-4134-8c69-30b1243c1e70": "lg",
-            "e2377a4c-f972-4661-9771-28e794bfaf30": "lg",
-            "fab18113-45af-471a-b5d8-b9de744024df": "lg"
+            "c27468d1-ee71-4134-8c69-30b1243c1e70": "lg"
         },
         "datasources": {
             "19a1a7fe-70d6-44ec-ac3a-752afddac5cc": {
@@ -28,13 +26,25 @@
                 },
                 "type": "CB_COLLECTION"
             },
-            "792f962f-c528-4529-a8d6-bcf42ab7dab5": {
-                "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
-                "name": "Example_NormalDistribution_Advanced",
+            "1e8c4d45-0f63-407d-9571-4fbf97df5a58": {
+                "id": "1e8c4d45-0f63-407d-9571-4fbf97df5a58",
+                "name": "JStatExampleNormalDeviate",
                 "settings": {
                     "CALL_ON_LOAD": true,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "code_name": "Example_NormalDistribution_Advanced",
+                    "code_name": "JStatExampleNormalDeviate",
+                    "payload": "{}",
+                    "refresh_interval": 1
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "792f962f-c528-4529-a8d6-bcf42ab7dab5": {
+                "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
+                "name": "JStatExampleNormalDistributionAdvanced",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "JStatExampleNormalDistributionAdvanced",
                     "payload": "{}",
                     "refresh_interval": 2
                 },
@@ -42,11 +52,11 @@
             },
             "8fc5b443-64be-47ff-a242-a86f38d4f8bd": {
                 "id": "8fc5b443-64be-47ff-a242-a86f38d4f8bd",
-                "name": "Example_GenerateData",
+                "name": "JStatExampleGenerateData",
                 "settings": {
                     "CALL_ON_LOAD": false,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "code_name": "Example_GenerateData",
+                    "code_name": "JStatExampleGenerateData",
                     "payload": "{}",
                     "refresh_interval": 0
                 },
@@ -277,38 +287,6 @@
                 "sm": [],
                 "xs": [],
                 "xxs": []
-            },
-            "e2377a4c-f972-4661-9771-28e794bfaf30": {
-                "lg": [
-                    {
-                        "h": 9,
-                        "i": "bc11db9f-73e5-488f-89c8-f885f7750b4e",
-                        "minH": 3,
-                        "w": 7,
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "md": [],
-                "sm": [],
-                "xs": [],
-                "xxs": []
-            },
-            "fab18113-45af-471a-b5d8-b9de744024df": {
-                "lg": [
-                    {
-                        "h": 9,
-                        "i": "7a9e948a-33f2-41a6-a672-ea562a820def",
-                        "minH": 3,
-                        "w": 4,
-                        "x": 0,
-                        "y": 0
-                    }
-                ],
-                "md": [],
-                "sm": [],
-                "xs": [],
-                "xxs": []
             }
         },
         "paneLayouts": {
@@ -320,8 +298,8 @@
                         "moved": false,
                         "static": false,
                         "w": 6,
-                        "x": 6,
-                        "y": 5
+                        "x": 0,
+                        "y": 3
                     },
                     {
                         "h": 2,
@@ -329,7 +307,7 @@
                         "moved": false,
                         "static": false,
                         "w": 6,
-                        "x": 0,
+                        "x": 6,
                         "y": 3
                     },
                     {
@@ -340,24 +318,6 @@
                         "w": 12,
                         "x": 0,
                         "y": 0
-                    },
-                    {
-                        "h": 2,
-                        "i": "d7bb88c4-0ef6-4067-95c2-5e6e030a3b79",
-                        "moved": false,
-                        "static": false,
-                        "w": 6,
-                        "x": 6,
-                        "y": 3
-                    },
-                    {
-                        "h": 2,
-                        "i": "203f660a-0b47-4741-8088-130de7c12437",
-                        "moved": false,
-                        "static": false,
-                        "w": 6,
-                        "x": 0,
-                        "y": 5
                     }
                 ],
                 "md": [
@@ -451,28 +411,6 @@
             }
         },
         "panes": {
-            "203f660a-0b47-4741-8088-130de7c12437": {
-                "customPaneId": "",
-                "header": {
-                    "hide": false,
-                    "title": "Weibull Distribution (Pdf)"
-                },
-                "hiddenBreakpoints": {},
-                "hideBorders": false,
-                "id": "203f660a-0b47-4741-8088-130de7c12437",
-                "pageId": "Home",
-                "tabInfo": {
-                    "activeTab": "e2377a4c-f972-4661-9771-28e794bfaf30",
-                    "tabIds": [
-                        "e2377a4c-f972-4661-9771-28e794bfaf30"
-                    ],
-                    "tabTitles": {
-                        "e2377a4c-f972-4661-9771-28e794bfaf30": "DOUBLE CLICK"
-                    },
-                    "tabbed": false
-                },
-                "themeType": "primary"
-            },
             "7affefab-9bc9-4bcd-8d5f-1c8f80f5b765": {
                 "customPaneId": "",
                 "header": {
@@ -534,28 +472,6 @@
                     ],
                     "tabTitles": {
                         "551b0afa-2fba-4ec0-bc55-360c09a0d0be": "DOUBLE CLICK"
-                    },
-                    "tabbed": false
-                },
-                "themeType": "primary"
-            },
-            "d7bb88c4-0ef6-4067-95c2-5e6e030a3b79": {
-                "customPaneId": "",
-                "header": {
-                    "hide": false,
-                    "title": "Weibull (Pdf)"
-                },
-                "hiddenBreakpoints": {},
-                "hideBorders": false,
-                "id": "d7bb88c4-0ef6-4067-95c2-5e6e030a3b79",
-                "pageId": "Home",
-                "tabInfo": {
-                    "activeTab": "fab18113-45af-471a-b5d8-b9de744024df",
-                    "tabIds": [
-                        "fab18113-45af-471a-b5d8-b9de744024df"
-                    ],
-                    "tabTitles": {
-                        "fab18113-45af-471a-b5d8-b9de744024df": "DOUBLE CLICK"
                     },
                     "tabbed": false
                 },
@@ -655,8 +571,29 @@
                             "borderColor": "#cccccc",
                             "fontColor": "#f7f7f7"
                         },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
                         "GOOGLE_MAP_WIDGET_COMPONENT": {
                             "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
                         },
                         "LINE_CHART_WIDGET_COMPONENT": {
                             "brushStroke": "#6e8592",
@@ -907,67 +844,6 @@
                 "tab": "a7388213-526d-423b-a6c2-b8bd18dc999a",
                 "type": "BUTTON_WIDGET_COMPONENT"
             },
-            "7a9e948a-33f2-41a6-a672-ea562a820def": {
-                "externalScripts": [],
-                "id": "7a9e948a-33f2-41a6-a672-ea562a820def",
-                "props": {
-                    "HAS_UNIQUE_STYLE": true,
-                    "barColors": [
-                        {
-                            "fill": "#d88d2f"
-                        },
-                        {
-                            "fill": "#6E93A8"
-                        },
-                        {
-                            "fill": "#DBA5A8"
-                        },
-                        {
-                            "fill": "#E8E7C6"
-                        }
-                    ],
-                    "bars": [
-                        {
-                            "dataKey": "y"
-                        }
-                    ],
-                    "brushStroke": "#6e8592",
-                    "chartData": {
-                        "dataType": "DYNAMIC_DATA_TYPE",
-                        "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
-                        "incoming_parser": {
-                            "isDebugOn": false,
-                            "value": "return this.datasource.results.weibullPdf;"
-                        }
-                    },
-                    "chartMarginBottom": 0,
-                    "chartMarginLeft": 0,
-                    "chartMarginRight": 0,
-                    "chartMarginTop": 0,
-                    "legendColor": "#f7f7f7",
-                    "legendHorizontalAlign": "center",
-                    "legendLayout": "horizontal",
-                    "legendVerticalAlign": "bottom",
-                    "referenceLines": [],
-                    "showBrush": false,
-                    "showGrid": true,
-                    "showHorizontalGrid": true,
-                    "showLegend": true,
-                    "showTooltip": true,
-                    "showVerticalGrid": true,
-                    "xAxisDataKey": "y",
-                    "xAxisOrientation": "bottom",
-                    "xAxisPaddingLeft": 0,
-                    "xAxisPaddingRight": 0,
-                    "yAxes": [
-                        {
-                            "orientation": "left"
-                        }
-                    ]
-                },
-                "tab": "fab18113-45af-471a-b5d8-b9de744024df",
-                "type": "BAR_CHART_WIDGET_COMPONENT"
-            },
             "8fac2a93-ac84-4b47-b4f1-7250716b59de": {
                 "externalScripts": [],
                 "id": "8fac2a93-ac84-4b47-b4f1-7250716b59de",
@@ -1030,67 +906,6 @@
                 "tab": "c27468d1-ee71-4134-8c69-30b1243c1e70",
                 "type": "BAR_CHART_WIDGET_COMPONENT"
             },
-            "bc11db9f-73e5-488f-89c8-f885f7750b4e": {
-                "externalScripts": [],
-                "id": "bc11db9f-73e5-488f-89c8-f885f7750b4e",
-                "props": {
-                    "HAS_UNIQUE_STYLE": false,
-                    "barColors": [
-                        {
-                            "fill": "#6E8592"
-                        },
-                        {
-                            "fill": "#6E93A8"
-                        },
-                        {
-                            "fill": "#DBA5A8"
-                        },
-                        {
-                            "fill": "#E8E7C6"
-                        }
-                    ],
-                    "bars": [
-                        {
-                            "dataKey": "y"
-                        }
-                    ],
-                    "brushStroke": "#6e8592",
-                    "chartData": {
-                        "dataType": "DYNAMIC_DATA_TYPE",
-                        "id": "792f962f-c528-4529-a8d6-bcf42ab7dab5",
-                        "incoming_parser": {
-                            "isDebugOn": false,
-                            "value": "return this.datasource.results.weibullPdf;"
-                        }
-                    },
-                    "chartMarginBottom": 0,
-                    "chartMarginLeft": 0,
-                    "chartMarginRight": 0,
-                    "chartMarginTop": 0,
-                    "legendColor": "#f7f7f7",
-                    "legendHorizontalAlign": "center",
-                    "legendLayout": "horizontal",
-                    "legendVerticalAlign": "bottom",
-                    "referenceLines": [],
-                    "showBrush": false,
-                    "showGrid": true,
-                    "showHorizontalGrid": true,
-                    "showLegend": true,
-                    "showTooltip": true,
-                    "showVerticalGrid": true,
-                    "xAxisDataKey": "x",
-                    "xAxisOrientation": "bottom",
-                    "xAxisPaddingLeft": 0,
-                    "xAxisPaddingRight": 0,
-                    "yAxes": [
-                        {
-                            "orientation": "left"
-                        }
-                    ]
-                },
-                "tab": "e2377a4c-f972-4661-9771-28e794bfaf30",
-                "type": "BAR_CHART_WIDGET_COMPONENT"
-            },
             "brand": {
                 "externalScripts": [],
                 "id": "brand",
@@ -1140,9 +955,9 @@
             }
         }
     },
-    "description": null,
-    "last_updated": "02 Jan 18 23:27 UTC",
-    "name": "statistics",
-    "system_key": "8ce4dda40bb69ad2c1bde69fb8ab01",
+    "description": "",
+    "last_updated": "18 May 18 22:17 UTC",
+    "name": "JStatStatistics",
+    "system_key": "86b7e0a40b98c6959985ffd0df35",
     "type": "v2"
 }

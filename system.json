@@ -1,9 +1,9 @@
 {
     "auth": true,
     "description": "",
-    "messaging_url": "platform.clearblade.com:1883",
-    "name": "PackageDev_jStat",
+    "messaging_url": "staging.clearblade.com:1883",
+    "name": "jstat-statistical-analysis",
     "platform_url": "https://staging.clearblade.com",
-    "system_key": "8ce4dda40bb69ad2c1bde69fb8ab01",
-    "system_secret": "8CE4DDA40BD6CFB480FAFFC68064"
+    "system_key": "",
+    "system_secret": ""
 }

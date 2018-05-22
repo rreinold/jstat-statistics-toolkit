@@ -1,0 +1,15 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 6,
+    "dependencies": "clearblade,log,JStatLib",
+    "execution_timeout": 0,
+    "logging_enabled": "true",
+    "name": "JStatExampleGenerateData",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1
+    },
+    "run_user": "",
+    "source": "JStatExampleGenerateData.js"
+}

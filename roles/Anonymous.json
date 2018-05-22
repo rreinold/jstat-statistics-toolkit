@@ -3,21 +3,37 @@
     "ID": "Anonymous",
     "Name": "Anonymous",
     "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
         "CodeServices": [
             {
                 "Level": 1,
-                "Name": "Example_GenerateData",
-                "SystemKey": "8ce4dda40bb69ad2c1bde69fb8ab01"
+                "Name": "JStatExampleGenerateData",
+                "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             },
             {
                 "Level": 1,
-                "Name": "Example_NormalDeviate",
-                "SystemKey": "8ce4dda40bb69ad2c1bde69fb8ab01"
+                "Name": "JStatExampleNormalDeviate",
+                "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             },
             {
                 "Level": 1,
-                "Name": "Example_NormalDistribution_Advanced",
-                "SystemKey": "8ce4dda40bb69ad2c1bde69fb8ab01"
+                "Name": "JStatExampleNormalDistributionAdvanced",
+                "SystemKey": "86b7e0a40b98c6959985ffd0df35"
+            },
+            {
+                "Level": 1,
+                "Name": "JStatExampleNormalDistributionStatic",
+                "SystemKey": "86b7e0a40b98c6959985ffd0df35"
+            },
+            {
+                "Level": 1,
+                "Name": "JStatTestSmoke",
+                "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             }
         ],
         "Collections": [
@@ -29,7 +45,13 @@
                 "Name": "vibration_sensor_1"
             }
         ],
+        "Deployments": {
+            "Level": 0
+        },
         "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
             "Level": 0
         },
         "MsgHistory": {
@@ -38,15 +60,23 @@
         "Portals": [
             {
                 "Level": 5,
-                "Name": "statistics",
-                "SystemKey": "8ce4dda40bb69ad2c1bde69fb8ab01"
+                "Name": "JStatStatistics",
+                "SystemKey": "86b7e0a40b98c6959985ffd0df35"
             }
         ],
         "Push": {
             "Level": 0
         },
-        "SystemServices": null,
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
         "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
         "UsersList": {
             "Level": 0
         }
